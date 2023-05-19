@@ -57,6 +57,7 @@ export const App = () => {
   };
  
   const onFormData = value => {
+    setQuery('');
     setQuery(value);
     setPage(1);
     setTotalHits(0);
