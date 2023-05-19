@@ -1,7 +1,8 @@
 import { ImageGalleryItem } from 'components/ImageGalleryItem';
 import {Ul} from './ImageGallery.styled';
 import PropTypes from 'prop-types';
-export const ImageGallery = ({finishRenderList}) => {
+export const ImageGallery = ({ finishRenderList }) => {
+
     return (
             <Ul>
                 {finishRenderList.map(({ id, webformatURL, tags, largeImageURL }) => (
